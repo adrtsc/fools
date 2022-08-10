@@ -1,0 +1,4 @@
+[console_scripts]
+generate_fasta = fools.generate_fasta:main
+generate_probes = fools.generate_probes:main
+
