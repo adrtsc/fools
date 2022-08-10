@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: fools
-Version: 0.1
+Version: 0.1.0
 Summary: CLI tools for FISH probe generation
 Home-page: https://github.com/adrtsc/fools
 Author: Adrian Tschan
