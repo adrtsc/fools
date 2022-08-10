@@ -8,5 +8,6 @@ setup(name='fools',
       author_email='adrian.tschan@uzh.ch',
       url='https://github.com/adrtsc/fools',
       entry_points={'console_scripts': ['generate_probes=fools.generate_probes:main',
-                                        'generate_fasta=fools.generate_fasta:main']}
+                                        'generate_fasta=fools.generate_fasta:main']},
+      install_requires=['pandas', 'biopython', 'pathlib']
       )
