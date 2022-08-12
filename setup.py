@@ -9,5 +9,5 @@ setup(name='fools',
       url='https://github.com/adrtsc/fools',
       entry_points={'console_scripts': ['generate_probes=fools.generate_probes:main',
                                         'generate_fasta=fools.generate_fasta:main']},
-      install_requires=['pandas', 'biopython', 'pathlib']
+      install_requires=['pandas', 'biopython', 'pathlib', 'openpyxl']
       )
